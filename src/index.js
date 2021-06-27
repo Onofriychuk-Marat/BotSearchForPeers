@@ -3,9 +3,9 @@ const {Telegraf, Markup, session, Stage} = require('telegraf')
 const FindPeopleInProject = require('./FindPeopleInProject').FindPeopleInProject
 const UpdateDB = require('./UpdateDB')
 
-const BOT_TOKEN = process.env.BOT_TOKEN || '1883130715:AAEy-CgFd3OimVFKx12q78aM7TLQUhLvVik'
-const client_id = '0b7116a3396c2fef12a3d3a90c44403ac4c6a9daaf8f785e527f113e261e9ccf'
-const client_secret = 'fd069bbb87512264a491e83b1cbea575f24b97baafdeebe10e8f16d2eae6ee82'
+const BOT_TOKEN = process.env.BOT_TOKEN || ''
+const client_id = ''
+const client_secret = ''
 
 const updateDB = new UpdateDB(client_id, client_secret)
 const bot = new Telegraf(BOT_TOKEN)
